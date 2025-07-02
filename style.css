@@ -1,6 +1,6 @@
- body {
+body {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  background:rgb(245, 247, 243);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,39 +10,45 @@
 .form-container {
   background: #fff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius:20px;
   width: 300px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow:black;
+  
 }
 
 h2 {
   text-align: center;
   margin-bottom: 15px;
+  color:#0a160f;
 }
 
 label {
   display: block;
   margin-top: 10px;
+  color:#5c4a47;
 }
 
 input {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing:border-box;
+  border-color: #2a1bef9b;
+  border-radius: 15px;
+  
 }
 
 button {
   margin-top: 15px;
   padding: 10px 15px;
-  background: #4CAF50;
-  color: #fff;
+  background-color: rgb(4, 15, 116);
+  color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   width: 100%;
   cursor: pointer;
 }
 
 button:hover {
-  background: #45a049;
+  background: #07ac12;
 }
